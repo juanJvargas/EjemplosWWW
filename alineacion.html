@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie-edge">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+
+	<style type="text/css">
+	.banner{
+		background-color: #8E44AD;
+		color: white;
+		width: auto;
+	}
+	.conborde{
+		border:1px solid black;
+	}
+	.uno{
+		background-color: mediumturquoise;
+	}
+	.dos{
+		background-color: greenyellow;
+	}
+	.tres{
+		background-color: hotpink;
+	}
+	.cuatro{
+		background-color: red;
+	}
+	.cinco{
+		background-color: coral;
+	}
+	.seis{
+		background-color: blueviolet;
+	}
+
+
+</style>
+</head>
+<body>
+	<div class="container-fluid": style="background-color: #C39BD3">
+
+		<div class="row banner fixed-top" >
+			<div class="mx-auto">
+				<h2>
+					Ventajas de bootstrap
+				</h2>
+
+			</div>
+			
+		</div><br><br>
+		<div class="row ">
+			<div class="col-12">
+				<h4>Sistema de cuadrilla (Grid)</h4>
+			</div>
+			<div class="container">
+				<div class="row uno">
+					<div class ="col-1 conborde">1</div>
+					<div class ="col-1 conborde">1</div>
+					<div class ="col-1 conborde">1</div>
+					<div class ="col-1 conborde">1</div>
+					<div class ="col-1 conborde">1</div>
+					<div class ="col-1 conborde">1</div>
+					<div class ="col-1 conborde">1</div>
+					<div class ="col-1 conborde">1</div>
+					<div class ="col-1 conborde">1</div>
+					<div class ="col-1 conborde">1</div>
+					<div class ="col-1 conborde">1</div>
+					<div class ="col-1 conborde">1</div>
+				</div>
+				<div class="row dos">
+					<div class ="col-2 conborde">2</div>
+					<div class ="col-4 conborde">4</div>
+					<div class ="col-6 conborde">6</div>
+				</div>
+				<div class="row tres">
+					<div class ="col-4 conborde">4</div>
+					<div class ="col-4 conborde" >4</div>
+					<div class ="col-4 conborde">4</div>
+				</div>
+				<div class="row cuatro">
+					<div class ="col-5 conborde">5</div>
+					<div class ="col-7 conborde" >7</div>
+				</div>
+				<div class="row cinco">
+					<div class ="col-6 conborde">6</div>
+					<div class ="col-6 conborde" >6</div>
+				</div>
+				<div class="row seis">
+					<div class ="col-12 conborde">12</div>
+				</div>
+			</div>
+
+		</div>
+		<br>
+		<h3>Ejemplo contenedor para distintas resoluciones, usando sm, md, lg, xl:</h3><br>
+
+		&lt;div class="col-12 col-sm-6 col-md-8 col-lg-4 col-xl-8"&gt;<br>
+		&lt;div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-2"&gt;<br>
+		&lt;div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-2"&gt;<br>
+		<ul>
+			<li>- [<= 575]</li>   
+			<li>SM- [576 - 767]</li>    
+			<li>MD- [768 - 991]</li>
+			<li>LG- [992 - 1199]</li>   
+			<li>XL- [1200 >= ]</li>
+		</ul>
+
+		
+		<div class="row">
+			<div class="col-12 col-sm-6 col-md-8 col-lg-4 col-xl-8 conborde uno">Uno</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 conborde dos">Dos</div>
+			<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-2 conborde tres">Tres</div>
+		</div>
+		<br>
+		<h3>Ejemplo para ocultar contenido</h3>
+		&lt;div class="col-12 col-md-6  col-lg-2    d-none d-lg-block"&gt;<br>
+		&lt;div class="col-12 col-md-6  col-lg-8                     "&gt;<br>
+		&lt;div class="col-12 col-md-12 col-lg-2    d-none d-md-block"&gt;<br>
+		<br>
+		<div class="row">
+
+			<div class="col-12 col-md-6  col-lg-2    d-none d-lg-block   conborde uno">PUBLICIDAD 1</div>
+			<div class="col-12 col-md-6  col-lg-8                        conborde dos">contenido</div>
+			<div class="col-12 col-md-12 col-lg-2    d-none d-md-block   conborde tres">PUBLICIDAD 2</div><br>
+
+		</div>
+		<br>
+		<h3>Ejemplos botones</h3>
+		<br>
+		<div class="row  justify-content-between">
+			<div class="col">
+				<button type="button" class="btn btn-primary">Boton</button></li>				
+			</div>
+			<div class="col">
+				<button type="button" class="btn btn-secondary">Boton</button></li>
+				
+			</div>
+			<div class="col">
+				<button type="button" class="btn btn-info">Boton</button></li>
+				
+			</div>
+			<div class="col">
+				<button type="button" class="btn btn-warning">Boton</button></li>
+				
+			</div>
+			<div class="col">
+				<button type="button" class="btn btn-danger">Boton</button></li>
+				
+			</div>
+			<div class="col">
+				
+				<button type="button" class="btn btn-dark">Boton</button></li>
+			</div>
+			<div class="col">
+				<button type="button" class="btn btn-success">Boton</button></li>
+				
+			</div>
+			
+		</div>
+		<br>
+		<h3>Ejemplos de menu desplegable</hh3>
+			<br>
+			<div class="row " style="height: 350px">
+				<div class="col-6">
+					<div class="dropdown">
+						<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Desplegar hacia abajo</button>
+						<div class="dropdown-menu">
+							<div class="dropdown-header">Grupo 1</div>
+							<a href="#" class="dropdown-item active" >Link 1</a>
+							<a href="#" class="dropdown-item" >Link 2</a>
+							<a href="#" class="dropdown-item disabled" >Link 3</a>
+							<div class="dropdown-divider"></div>
+							<div class="dropdown-header">Grupo 2</div>
+							<a href="#" class="dropdown-item" >Link 4</a>
+							<a href="#" class="dropdown-item" >Link 5</a>
+							<a href="#" class="dropdown-item" >Link 6</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 align-self-end">
+					<div class="dropup">
+						<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Desplegar hacia arriba</button>
+						<div class="dropdown-menu">
+							<div class="dropdown-header">Grupo 1</div>
+							<a href="#" class="dropdown-item" >Link 1</a>
+							<a href="#" class="dropdown-item" >Link 2</a>
+							<a href="#" class="dropdown-item disabled" >Link 3</a>
+							<div class="dropdown-divider"></div>
+							<div class="dropdown-header">Grupo 2</div>
+							<a href="#" class="dropdown-item" >Link 4</a>
+							<a href="#" class="dropdown-item" >Link 5</a>
+							<a href="#" class="dropdown-item active" >Link 6</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<br>
+			<h3>Ejemplo de alertas</h3>
+			<br>
+			<div class="row">
+				
+				<div class="alert alert-primary" role="alert"> Una alerta para la exposición!</div>
+				<div class="alert alert-secondary" role="alert"> Una alerta para la exposición!</div>
+				<div class="alert alert-succes" role="alert"> Una alerta para la exposición!</div>
+			</div>
+			<div class="row">
+				<div class="alert alert-danger" role="alert"> Una alerta para la exposición!</div>
+				<div class="alert alert-warning" role="alert"> Una alerta para la exposición!</div>
+				<div class="alert alert-info" role="alert"> Una alerta para la exposición!</div>
+				
+				
+			</div>
+			
+		</div>
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
